@@ -3,6 +3,7 @@ import { Header } from '../../components/Header';
 import background from '../../assets/github.svg';
 
 import './styles.css';
+import ItemList from '../../components/ItemList';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           <hr />
           <div>
             <h3>Repositórios</h3>
+            <ItemList title="Teste1" description="Teste de descrição" />
+            <ItemList title="Teste2" description="Teste de descrição" />
+            <ItemList title="Teste3" description="Teste de descrição" />
           </div>
         </div>
       </div>
