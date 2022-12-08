@@ -23,12 +23,15 @@ function App() {
             />
 
             <div>
-              <h3>Paulo Moreira</h3>
+              <h2>Paulo Moreira</h2>
               <span>@paulohmoreira</span>
               <p>Descrição</p>
             </div>
           </div>
           <hr />
+          <div>
+            <h3>Repositórios</h3>
+          </div>
         </div>
       </div>
     </div>
