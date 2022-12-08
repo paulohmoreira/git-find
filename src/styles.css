@@ -12,4 +12,5 @@ body {
 hr {
   background-color: 1px solid rgba(229, 229, 229, 0.2);
   border: 1px solid rgba(229, 229, 229, 0.2);
+  width: 97%;
 }

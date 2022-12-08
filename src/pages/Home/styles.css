@@ -24,7 +24,7 @@ input {
   border: 1px solid #999999;
   border-radius: 22px;
   min-width: 250px;
-  width: 50%;
+  width: 65%;
   margin-right: 12px;
   background: transparent;
   font-size: 1.125rem;
@@ -32,10 +32,40 @@ input {
 }
 
 button {
+  width: 30%;
   border: 1px solid #999999;
   border-radius: 22px;
   background: #2d333b;
   font-size: 1.125rem;
-  padding: 10px 40px;
+  padding: 10px;
   color: #fff;
+}
+
+.perfil {
+  display: flex;
+  margin: 40px 0;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #e5e5e5;
+  margin-right: 32px;
+}
+
+.perfil h3 {
+  color: #999999;
+  font-size: 1.5rem;
+}
+
+.perfil span,
+.perfil p {
+  display: block;
+  color: #999999;
+  font-size: 0.75rem;
+}
+
+.perfil p {
+  margin-top: 20px;
 }
