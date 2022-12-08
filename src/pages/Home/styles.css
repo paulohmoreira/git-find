@@ -19,3 +19,14 @@
   margin-top: 40px;
   color: #fff;
 }
+
+input {
+  border: 1px solid #999999;
+  border-radius: 22px;
+  min-width: 250px;
+  width: 50%;
+  margin-right: 12px;
+  background: transparent;
+  font-size: 1.125rem;
+  padding: 10px;
+}
