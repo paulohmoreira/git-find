@@ -11,6 +11,7 @@
   width: 700px;
   position: absolute;
   left: -300px;
+  z-index: -1;
 }
 
 .info {
@@ -21,6 +22,7 @@
 }
 
 input {
+  color: #fff;
   border: 1px solid #999999;
   border-radius: 22px;
   min-width: 250px;
@@ -32,6 +34,7 @@ input {
 }
 
 button {
+  cursor: pointer;
   width: 30%;
   border: 1px solid #999999;
   border-radius: 22px;
